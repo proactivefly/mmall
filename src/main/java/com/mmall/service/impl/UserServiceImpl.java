@@ -7,12 +7,10 @@ import com.mmall.dao.UserMapper;
 import com.mmall.pojo.User;
 import com.mmall.service.IUSERService;
 import com.mmall.util.MD5Util;
-import net.sf.jsqlparser.schema.Server;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.servlet.http.HttpSession;
 import java.util.UUID;
 
 /**
@@ -157,4 +155,56 @@ public class UserServiceImpl implements IUSERService {
     return ServerResponse.createByErrorMsg("修改密码失败");
   };
 
+  public ServerResponse<String> resetPassword(User user,String password,String passwordNew){
+    //避免横向越权,校验用户旧密码,查询count 需要制定id
+    int count =userMapper.checkPassword(MD5Util.MD5EncodeUtf8(password),user.getId());
+    if(count==0){
+      return ServerResponse.createByErrorMsg("旧密码错误");
+    }
+
+    user.setPassword(MD5Util.MD5EncodeUtf8(passwordNew));
+    //有变化就更新，没有就不更新，不是全量更新
+    count = userMapper.updateByPrimaryKeySelective(user);
+    if(count>0){
+      return ServerResponse.createBySuccessMsg("更新密码成功");
+    }
+
+    return ServerResponse.createByErrorMsg("更新密码失败");
+  }
+
+
+  public ServerResponse<User> updateUserInformation(User user){
+    //用户名的更新
+
+    //邮箱更新校验是否重复
+    int count =userMapper.checkEmailByUserId(user.getEmail(),user.getId());
+    if(count>0){
+      return ServerResponse.createByErrorMsg("邮箱已存在,请更换email");
+    }
+
+    User newUserInfo=new User();
+    newUserInfo.setId(user.getId());
+    newUserInfo.setEmail(user.getEmail());
+    newUserInfo.setPhone(user.getPhone());
+    newUserInfo.setQuestion(user.getQuestion());
+    newUserInfo.setAnswer(user.getAnswer());
+
+    int resultCount=userMapper.updateByPrimaryKeySelective(newUserInfo);
+    if(resultCount>0){
+      return ServerResponse.createBySuccess("更新成功",newUserInfo);
+    }
+    return ServerResponse.createByErrorMsg("更新个人信息失败");
+  }
+
+
+  public ServerResponse<User> getUserInfoDetail(Integer userId){
+    //通过userId查询用户对象
+    User currentUser=userMapper.selectByPrimaryKey(userId);
+    if(currentUser==null){
+      return ServerResponse.createByErrorMsg("找不到该用户");
+    }
+    //如果正确密码置空 为啥?因为密码字段不能不暴露给前端
+    currentUser.setPassword(StringUtils.EMPTY);
+    return ServerResponse.createBySuccess(currentUser);
+  }
 }

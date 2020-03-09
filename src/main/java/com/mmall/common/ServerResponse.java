@@ -64,8 +64,8 @@ public class ServerResponse<T> implements Serializable {
   }
 
   /**
-   *
-   * @param 对外暴露构造方法
+   * 对外暴露方法
+   * @param
    * @return
    */
 
@@ -99,7 +99,7 @@ public class ServerResponse<T> implements Serializable {
     return new ServerResponse<T>(ResponseCode.ERROR.getCode(),msg);
   }
 
-  // 暴露可变的code,因为是可变的所以code需要另穿
+  // 暴露可变的code,因为是可变的所以code需要单独传
   public static <T> ServerResponse<T> createByErrorCodeMessage(int errorCode, String errorMsg){
     return new ServerResponse<T>(errorCode,errorMsg);
   }

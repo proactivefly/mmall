@@ -3,8 +3,6 @@ package com.mmall.service;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 
-import javax.servlet.http.HttpSession;
-
 /**
  * 接口固定格式
  */
@@ -37,4 +35,10 @@ public interface IUSERService {
   ServerResponse<String> forgetCheckAnswer(String username,String question,String answer);
 
   ServerResponse<String> forgetRestPassword(String username,String passwordNew,String forgetToken);
+
+  ServerResponse<String>resetPassword(User user,String password,String passwordNew);
+
+  ServerResponse<User> updateUserInformation(User user);
+
+  ServerResponse<User> getUserInfoDetail(Integer userId);
 }

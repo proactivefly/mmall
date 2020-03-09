@@ -1,6 +1,7 @@
 package com.mmall.controller.portal;
 
 import com.mmall.common.Const;
+import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 import com.mmall.service.IUSERService;
@@ -156,5 +157,66 @@ public class UserController {
   @ResponseBody
   public ServerResponse<String> forgetRestPassword(String username,String PasswordNew,String forgetToken){
     return iUserService.forgetRestPassword(username,PasswordNew,forgetToken);
+  }
+
+  /**
+   * 更新密码
+   * @param session
+   * @param password
+   * @param passwordNew
+   * @return
+   */
+  @RequestMapping(value="reset_password.do",method= RequestMethod.POST)
+  @ResponseBody
+  public ServerResponse<String> resetPassword(HttpSession session,String password,String passwordNew){
+    //从session中获取user常量，并强转称user对象
+    User user=(User)session.getAttribute(Const.CURRENT_USER);
+    if(user==null){
+      return ServerResponse.createByErrorMsg("请登录");
+    }
+    return iUserService.resetPassword(user,password,passwordNew);
+  }
+
+  /**
+   * 更新用户
+   * @param session
+   * @param user
+   * @return
+   */
+  @RequestMapping(value="update_user_information.do",method= RequestMethod.POST)
+  @ResponseBody
+  public ServerResponse<User> updateUserInformation(HttpSession session,User user){
+
+    User currentUser=(User)session.getAttribute(Const.CURRENT_USER);
+    if(currentUser==null){
+      return ServerResponse.createByErrorMsg("请登录后修改您的密码");
+    }
+    // 把userId设置成当前登录的userId,username也设置称登录用户的user信息
+    user.setId(currentUser.getId());
+    user.setUsername(currentUser.getUsername());
+
+    //注意这个写法
+    ServerResponse<User> response = iUserService.updateUserInformation(user);
+
+
+    if(response.isSuccess()){
+      //更新user告诉前端
+      response.getData().setUsername(currentUser.getUsername());
+      session.setAttribute(Const.CURRENT_USER,response.getData());
+    }
+    return response;
+  }
+
+  @RequestMapping(value="get_information.do",method= RequestMethod.POST)
+  @ResponseBody
+  public ServerResponse<User> getUserDetailInfo(HttpSession session){
+    //获取当前登录信息
+    User currentUser= (User)session.getAttribute(Const.CURRENT_USER);
+    if(currentUser==null){
+      //强制登录
+      return ServerResponse.createByErrorCodeMessage(ResponseCode.NEED_LOGIN.getCode(),"请登录");
+    }
+    int userId=currentUser.getId();
+    return iUserService.getUserInfoDetail(userId);
   }
 }
