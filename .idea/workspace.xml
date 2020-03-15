@@ -7,28 +7,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7de1b5-5a9e-453d-871b-d34fcade6762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductListItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUSERService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/IUSERService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mmall.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/common/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/backend/UserManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/backend/UserManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/IUSERService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/IUSERService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/FTPUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/util/FTPUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/common/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/common/Const.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/controller/backend/UserManageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/controller/backend/UserManageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/dao/ProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/pojo/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/pojo/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/IUSERService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/IUSERService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/util/FTPUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/util/FTPUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/mmall/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,40 +72,31 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -89,54 +110,80 @@
       <find>ServerResponse&lt;User&gt;</find>
       <find>/developer/apache-tomcat-7.0.73</find>
       <find>.isSuccess()</find>
+      <find>log</find>
+      <find>logg</find>
+      <find>batis</find>
+      <find>ProductListVO</find>
+      <find>FTPClient</find>
+      <find>dispatcher</find>
+      <find>Lists</find>
     </findStrings>
+    <replaceStrings>
+      <replace>ProductListItemVO</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/main/java/com/mmall</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response31.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderItemMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/PayInfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUSERService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/userManagementController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IUSERService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageContoller.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/hello.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductDetailVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductListVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IFileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ProductController.java" />
       </list>
     </option>
   </component>
@@ -181,8 +228,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="736" />
@@ -193,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,20 +262,21 @@
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mmall" type="b2602c69:ProjectViewProjectNode" />
               <item name="mmall" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -333,6 +379,7 @@
     </configuration>
     <configuration name="start" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="mmall:war">
@@ -441,18 +488,24 @@
       <workItem from="1583110525270" duration="5027000" />
       <workItem from="1583459330119" duration="17588000" />
       <workItem from="1583640371728" duration="9682000" />
-      <workItem from="1583714547607" duration="11199000" />
+      <workItem from="1583714547607" duration="33827000" />
+      <workItem from="1583842888604" duration="254000" />
+      <workItem from="1583889999882" duration="7538000" />
+      <workItem from="1583917448833" duration="119000" />
+      <workItem from="1583976578450" duration="16145000" />
+      <workItem from="1584063529538" duration="11487000" />
+      <workItem from="1584170842093" duration="20839000" />
+      <workItem from="1584263586604" duration="2852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90623000" />
+    <option name="totallyTimeSpent" value="172485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1280" height="736" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="734" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28271407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26009694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,11 +513,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="REST Client" weight="0.48447204" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5962733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.67701864" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.93457943" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -473,15 +525,16 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32919255" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32919255" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32919255" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Problems" order="16" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32919255" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32866043" />
+      <window_info anchor="bottom" id="REST Client" order="17" weight="0.48447204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.20986623" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1615509" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -497,260 +550,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/PayInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2445">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2955">
-          <caret line="197" column="25" selection-start-line="197" selection-start-column="25" selection-end-line="197" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="199" column="17" lean-forward="true" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="88" column="49" lean-forward="true" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/protal/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/PayInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/TokenCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUSERService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/userManagementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="200" column="20" selection-start-line="200" selection-start-column="20" selection-end-line="200" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#UserServiceImpl#0" />
-            <element signature="method#register#0;class#UserServiceImpl#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="method#ServerResponse#2;class#ServerResponse#0" />
-            <element signature="method#ServerResponse#3;class#ServerResponse#0" />
-            <element signature="method#createBySuccess#1;class#ServerResponse#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -762,13 +565,6 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http">
       <provider selected="true" editor-type-id="text-editor">
@@ -807,34 +603,854 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="-618">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="184" column="30" lean-forward="true" selection-start-line="184" selection-start-column="30" selection-end-line="184" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="222" lean-forward="true" selection-start-line="222" selection-end-line="222" />
+        <state relative-caret-position="334">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/ICategoryService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="119" column="46" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="102" column="32" lean-forward="true" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2126#2127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.0.RELEASE/spring-beans-4.0.0.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/miemiedev/mybatis-paginator/1.2.17/mybatis-paginator-1.2.17.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="75" column="21" selection-start-line="71" selection-start-column="8" selection-end-line="75" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com:mmall:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com:mmall:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="734.996704931973">com:mmall:1.0-SNAPSHOT</node>
+            <node x="110.0" y="840.0">org.apache.tomcat:tomcat-servlet-api:jar:7.0.64</node>
+            <node x="121.0" y="1181.013392857143">org.springframework:spring-webmvc:jar:4.0.0.RELEASE</node>
+            <node x="358.0" y="1088.806653911565">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE</node>
+            <node x="352.5" y="1242.246704931973">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE</node>
+            <node x="503.0" y="1138.573341836735">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE</node>
+            <node x="363.0" y="1182.246704931973">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE</node>
+            <node x="342.0" y="1302.246704931973">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE</node>
+            <node x="364.0" y="1028.806653911565">org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE</node>
+            <node x="132.5" y="1080.0">org.springframework:spring-oxm:jar:4.0.0.RELEASE</node>
+            <node x="133.0" y="1120.0">org.springframework:spring-jdbc:jar:4.0.0.RELEASE</node>
+            <node x="140.0" y="960.0">org.springframework:spring-tx:jar:4.0.0.RELEASE</node>
+            <node x="365.0" y="831.806653911565">org.springframework:spring-tx:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="134.5" y="1221.013392857143">org.springframework:spring-test:jar:4.0.0.RELEASE</node>
+            <node x="126.5" y="360.0">org.aspectj:aspectjweaver:jar:1.7.3</node>
+            <node x="121.5" y="520.0">org.mybatis:mybatis-spring:jar:1.3.0</node>
+            <node x="145.5" y="240.0">org.mybatis:mybatis:jar:3.5.3</node>
+            <node x="143.0" y="1000.0">org.aspectj:aspectjrt:jar:1.6.11</node>
+            <node x="105.5" y="720.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12</node>
+            <node x="345.5" y="720.0">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12/org.codehaus.jackson:jackson-core-asl:jar:1.9.12</node>
+            <node x="120.0" y="880.0">commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="351.5" y="894.996704931973">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="120.0" y="160.0">ch.qos.logback:logback-classic:jar:1.1.2</node>
+            <node x="373.0" y="160.0">ch.qos.logback:logback-classic:jar:1.1.2/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="128.0" y="100.0">ch.qos.logback:logback-core:jar:1.1.2</node>
+            <node x="99.5" y="1040.0">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="152.0" y="440.0">com.google.guava:guava:jar:20.0</node>
+            <node x="118.0" y="560.0">org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="101.0" y="400.0">commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="156.0" y="60.0">junit:junit:jar:4.12</node>
+            <node x="139.0" y="600.0">joda-time:joda-time:jar:2.3</node>
+            <node x="146.0" y="640.0">org.hashids:hashids:jar:1.0.1</node>
+            <node x="125.5" y="320.0">commons-net:commons-net:jar:3.1</node>
+            <node x="104.0" y="920.0">commons-fileupload:commons-fileupload:jar:1.2.2</node>
+            <node x="129.5" y="680.0">commons-io:commons-io:jar:2.0.1</node>
+            <node x="136.0" y="1421.013392857143">com.github.pagehelper:pagehelper:jar:4.1.0</node>
+            <node x="111.5" y="760.0">com.github.miemiedev:mybatis-paginator:jar:1.2.17</node>
+            <node x="139.5" y="1481.013392857143">com.github.jsqlparser:jsqlparser:jar:0.9.4</node>
+            <node x="117.0" y="800.0">commons-codec:commons-codec:jar:1.10</node>
+            <node x="93.0" y="1321.013392857143">commons-configuration:commons-configuration:jar:1.10</node>
+            <node x="122.0" y="1381.013392857143">commons-lang:commons-lang:jar:2.6</node>
+            <node x="111.5" y="1261.013392857143">commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="157.0" y="280.0">com.google.zxing:core:jar:2.1</node>
+            <node x="155.0" y="200.0">com.google.code.gson:gson:jar:2.3.1</node>
+            <node x="124.0" y="0.0">org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="155.5" y="480.0">redis.clients:jedis:jar:2.9.0</node>
+            <node x="347.5" y="480.0">redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.0.0.RELEASE">
+              <point x="31.5" y="3.428571428571445" />
+              <point x="83.0" y="965.0" />
+              <point x="-42.5" y="-5.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="42.5" y="6.666666666666629" />
+              <point x="272.0" y="976.6666666666666" />
+              <point x="292.0" y="1185.996704931973" />
+              <point x="-49.5" y="-6.25" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-codec:commons-codec:jar:1.10">
+              <point x="31.5" y="1.1428571428571104" />
+              <point x="83.0" y="810.0" />
+              <point x="-65.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="49.5" y="-5.0" />
+              <point x="272.0" y="1125.0" />
+              <point x="292.0" y="1098.806653911565" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="com.github.miemiedev:mybatis-paginator:jar:1.2.17">
+              <point x="31.5" y="0.5714285714285552" />
+              <point x="83.0" y="770.0" />
+              <point x="-71.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="com.github.pagehelper:pagehelper:jar:4.1.0">
+              <point x="31.5" y="9.14285714285711" />
+              <point x="83.0" y="1431.013392857143" />
+              <point x="-46.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE">
+              <point x="-48.5" y="2.5" />
+              <point x="302.0" y="1041.306653911565" />
+              <point x="302.0" y="1252.246704931973" />
+              <point x="-60.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="com.google.code.gson:gson:jar:2.3.1">
+              <point x="31.5" y="-7.428571428571445" />
+              <point x="83.0" y="210.0" />
+              <point x="-27.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="-48.5" y="7.5" />
+              <point x="322.0" y="1046.306653911565" />
+              <point x="322.0" y="1183.496704931973" />
+              <point x="-49.5" y="-8.75" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="42.5" y="-0.0" />
+              <point x="272.0" y="970.0" />
+              <point x="292.0" y="1090.806653911565" />
+              <point x="-54.5" y="-8.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-dbcp:commons-dbcp:jar:1.4">
+              <point x="31.5" y="2.2857142857143344" />
+              <point x="83.0" y="890.0" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.0.0.RELEASE">
+              <point x="31.5" y="6.85714285714289" />
+              <point x="83.0" y="1231.013392857143" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.0.0.RELEASE">
+              <point x="31.5" y="5.14285714285711" />
+              <point x="83.0" y="1090.0" />
+              <point x="-50.0" y="-0.0" />
+            </edge>
+            <edge source="com.github.pagehelper:pagehelper:jar:4.1.0" target="com.github.jsqlparser:jsqlparser:jar:0.9.4">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="60.0" y="-0.0" />
+              <point x="-47.5" y="8.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-tx:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="-48.5" y="-7.5" />
+              <point x="292.0" y="1031.306653911565" />
+              <point x="292.0" y="846.806653911565" />
+              <point x="-47.5" y="5.0" />
+            </edge>
+            <edge source="ch.qos.logback:logback-classic:jar:1.1.2" target="ch.qos.logback:logback-classic:jar:1.1.2/org.slf4j:slf4j-api:jar:1.7.6">
+              <point x="62.5" y="-0.0" />
+              <point x="-39.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE">
+              <point x="48.5" y="-0.0" />
+              <point x="483.0" y="1038.806653911565" />
+              <point x="-47.5" y="-4.0" />
+            </edge>
+            <edge source="org.springframework:spring-oxm:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="50.0" y="-5.0" />
+              <point x="272.0" y="1085.0" />
+              <point x="292.0" y="1094.806653911565" />
+              <point x="-54.5" y="-4.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.1.2">
+              <point x="31.5" y="-8.571428571428555" />
+              <point x="83.0" y="110.0" />
+              <point x="-54.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="redis.clients:jedis:jar:2.9.0">
+              <point x="31.5" y="-3.428571428571445" />
+              <point x="83.0" y="490.0" />
+              <point x="-27.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="com.google.zxing:core:jar:2.1">
+              <point x="31.5" y="-6.285714285714334" />
+              <point x="83.0" y="290.0" />
+              <point x="-25.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.7.3">
+              <point x="31.5" y="-5.14285714285711" />
+              <point x="83.0" y="370.0" />
+              <point x="-56.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="31.5" y="-9.14285714285711" />
+              <point x="83.0" y="70.0" />
+              <point x="-26.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.0.0.RELEASE" target="org.springframework:spring-tx:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="42.5" y="-6.666666666666629" />
+              <point x="272.0" y="963.3333333333334" />
+              <point x="292.0" y="836.806653911565" />
+              <point x="-47.5" y="-5.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-fileupload:commons-fileupload:jar:1.2.2">
+              <point x="31.5" y="2.8571428571428896" />
+              <point x="83.0" y="930.0" />
+              <point x="-78.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE">
+              <point x="31.5" y="6.285714285714334" />
+              <point x="83.0" y="1191.013392857143" />
+              <point x="-61.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="-47.5" y="4.0" />
+              <point x="483.0" y="1192.246704931973" />
+              <point x="49.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-tx:jar:4.0.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="-47.5" y="-8.0" />
+              <point x="483.0" y="841.806653911565" />
+              <point x="47.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-oxm:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="50.0" y="5.0" />
+              <point x="272.0" y="1095.0" />
+              <point x="292.0" y="1188.496704931973" />
+              <point x="-49.5" y="-3.75" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.3.0">
+              <point x="31.5" y="-2.8571428571428896" />
+              <point x="83.0" y="530.0" />
+              <point x="-61.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.apache.tomcat:tomcat-servlet-api:jar:7.0.64">
+              <point x="31.5" y="1.7142857142856656" />
+              <point x="83.0" y="850.0" />
+              <point x="-72.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-logging:commons-logging:jar:1.1.1">
+              <point x="31.5" y="7.428571428571445" />
+              <point x="83.0" y="1271.013392857143" />
+              <point x="-71.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
+              <point x="31.5" y="-4.571428571428555" />
+              <point x="83.0" y="410.0" />
+              <point x="-81.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.5">
+              <point x="31.5" y="-2.2857142857143344" />
+              <point x="83.0" y="570.0" />
+              <point x="-64.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="61.5" y="-0.0" />
+              <point x="272.0" y="1191.013392857143" />
+              <point x="292.0" y="1193.496704931973" />
+              <point x="-49.5" y="1.25" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="joda-time:joda-time:jar:2.3">
+              <point x="31.5" y="-1.7142857142856656" />
+              <point x="83.0" y="610.0" />
+              <point x="-43.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-lang:commons-lang:jar:2.6">
+              <point x="31.5" y="8.571428571428555" />
+              <point x="83.0" y="1391.013392857143" />
+              <point x="-60.5" y="-0.0" />
+            </edge>
+            <edge source="redis.clients:jedis:jar:2.9.0" target="redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2">
+              <point x="27.0" y="-0.0" />
+              <point x="-65.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE">
+              <point x="61.5" y="4.0" />
+              <point x="272.0" y="1195.013392857143" />
+              <point x="292.0" y="1258.9133715986397" />
+              <point x="-60.0" y="6.6666666666667425" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="-60.0" y="-6.6666666666667425" />
+              <point x="312.0" y="1245.5800382653063" />
+              <point x="312.0" y="1106.806653911565" />
+              <point x="-54.5" y="8.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.6">
+              <point x="31.5" y="4.571428571428555" />
+              <point x="83.0" y="1050.0" />
+              <point x="-83.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE/org.springframework:spring-aop:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="-47.5" y="-0.0" />
+              <point x="483.0" y="1098.806653911565" />
+              <point x="54.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="31.5" y="-9.714285714285666" />
+              <point x="83.0" y="10.0" />
+              <point x="-58.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="com.github.jsqlparser:jsqlparser:jar:0.9.4">
+              <point x="31.5" y="9.71428571428578" />
+              <point x="83.0" y="1491.013392857143" />
+              <point x="-43.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="48.0" y="-0.0" />
+              <point x="272.0" y="1231.013392857143" />
+              <point x="292.0" y="1195.996704931973" />
+              <point x="-49.5" y="3.75" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-web:jar:4.0.0.RELEASE">
+              <point x="61.5" y="-8.0" />
+              <point x="272.0" y="1183.013392857143" />
+              <point x="292.0" y="1036.306653911565" />
+              <point x="-48.5" y="-2.5" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-io:commons-io:jar:2.0.1">
+              <point x="31.5" y="-0.5714285714285552" />
+              <point x="83.0" y="690.0" />
+              <point x="-53.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.6.11">
+              <point x="31.5" y="4.0" />
+              <point x="83.0" y="1010.0" />
+              <point x="-39.5" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.5.3">
+              <point x="31.5" y="-6.85714285714289" />
+              <point x="83.0" y="250.0" />
+              <point x="-37.0" y="-0.0" />
+            </edge>
+            <edge source="commons-configuration:commons-configuration:jar:1.10" target="commons-lang:commons-lang:jar:2.6">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-beans:jar:4.0.0.RELEASE">
+              <point x="61.5" y="-4.0" />
+              <point x="272.0" y="1187.013392857143" />
+              <point x="292.0" y="1102.806653911565" />
+              <point x="-54.5" y="4.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-configuration:commons-configuration:jar:1.10">
+              <point x="31.5" y="8.0" />
+              <point x="-89.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE" target="commons-logging:commons-logging:jar:1.1.1">
+              <point x="-49.5" y="6.25" />
+              <point x="292.0" y="1198.496704931973" />
+              <point x="272.0" y="1271.013392857143" />
+              <point x="71.0" y="-0.0" />
+            </edge>
+            <edge source="commons-configuration:commons-configuration:jar:1.10" target="commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="commons-dbcp:commons-dbcp:jar:1.4" target="commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4">
+              <point x="62.5" y="-0.0" />
+              <point x="272.0" y="890.0" />
+              <point x="292.0" y="904.996704931973" />
+              <point x="-61.0" y="-0.0" />
+            </edge>
+            <edge source="ch.qos.logback:logback-classic:jar:1.1.2" target="ch.qos.logback:logback-core:jar:1.1.2">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.hashids:hashids:jar:1.0.1">
+              <point x="31.5" y="-1.1428571428571104" />
+              <point x="83.0" y="650.0" />
+              <point x="-36.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE">
+              <point x="61.5" y="8.0" />
+              <point x="272.0" y="1199.013392857143" />
+              <point x="292.0" y="1317.246704931973" />
+              <point x="-70.5" y="5.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="commons-net:commons-net:jar:3.1">
+              <point x="31.5" y="-5.714285714285666" />
+              <point x="83.0" y="330.0" />
+              <point x="-57.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="-70.5" y="-5.0" />
+              <point x="292.0" y="1307.246704931973" />
+              <point x="292.0" y="1200.996704931973" />
+              <point x="-49.5" y="8.75" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="com.google.guava:guava:jar:20.0">
+              <point x="31.5" y="-4.0" />
+              <point x="83.0" y="450.0" />
+              <point x="-30.5" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-expression:jar:4.0.0.RELEASE">
+              <point x="0.0" y="10.0" />
+              <point x="0.0" y="-10.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12">
+              <point x="31.5" y="-0.0" />
+              <point x="83.0" y="730.0" />
+              <point x="-77.0" y="-0.0" />
+            </edge>
+            <edge source="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12" target="org.codehaus.jackson:jackson-mapper-asl:jar:1.9.12/org.codehaus.jackson:jackson-core-asl:jar:1.9.12">
+              <point x="77.0" y="-0.0" />
+              <point x="-67.0" y="-0.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.0.0.RELEASE">
+              <point x="31.5" y="5.714285714285666" />
+              <point x="83.0" y="1135.0" />
+              <point x="-49.5" y="5.0" />
+            </edge>
+            <edge source="com:mmall:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.1.2">
+              <point x="31.5" y="-8.0" />
+              <point x="83.0" y="170.0" />
+              <point x="-62.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-context:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="0.0" y="-10.0" />
+              <point x="0.0" y="10.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.0.0.RELEASE" target="org.springframework:spring-tx:jar:4.0.0.RELEASE">
+              <point x="-49.5" y="-5.0" />
+              <point x="83.0" y="1125.0" />
+              <point x="83.0" y="975.0" />
+              <point x="-42.5" y="5.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.0.0.RELEASE" target="org.springframework:spring-webmvc:jar:4.0.0.RELEASE/org.springframework:spring-core:jar:4.0.0.RELEASE">
+              <point x="49.5" y="5.0" />
+              <point x="272.0" y="1135.0" />
+              <point x="292.0" y="1190.996704931973" />
+              <point x="-49.5" y="-1.25" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7921911240187722" x="283.0" y="1077.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" column="19" lean-forward="true" selection-start-line="204" selection-start-column="19" selection-end-line="204" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="183" column="49" selection-start-line="183" selection-start-column="38" selection-end-line="183" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/UserManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/DateTimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductDetailVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1416#1417#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1608#1609#0" expanded="true" />
+            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1972#1973#0" expanded="true" />
+            <element signature="e#2022#2023#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
+            <element signature="e#2204#2205#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2279#2280#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductListItemVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="28" selection-start-line="6" selection-start-column="4" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IUSERService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#connectServer#0;class#FTPUtil#0" />
+            <element signature="e#2878#2879#0" expanded="true" />
+            <element signature="e#2903#2904#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#2967#2968#0" expanded="true" />
+            <element signature="e#2995#2996#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+            <element signature="e#3059#3060#0" expanded="true" />
+            <element signature="e#3091#3092#0" expanded="true" />
+            <element signature="e#3122#3123#0" expanded="true" />
+            <element signature="e#3149#3150#0" expanded="true" />
+            <element signature="e#3189#3190#0" expanded="true" />
+            <element signature="e#3221#3222#0" expanded="true" />
+            <element signature="e#3251#3252#0" expanded="true" />
+            <element signature="e#3277#3278#0" expanded="true" />
+            <element signature="e#3315#3316#0" expanded="true" />
+            <element signature="e#3345#3346#0" expanded="true" />
+            <element signature="e#3384#3385#0" expanded="true" />
+            <element signature="e#3416#3417#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
+            <element signature="e#3511#3512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="74" column="19" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ResponseCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1917">
+          <caret line="54" selection-start-line="54" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/CategoryManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="111" column="39" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addCategory#0;class#CategoryManageController#0" />
+            <element signature="method#setCategoryName#0;class#CategoryManageController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/FileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="227" column="22" selection-start-line="227" selection-start-column="22" selection-end-line="227" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="238" column="9" lean-forward="true" selection-start-line="238" selection-start-column="9" selection-end-line="238" selection-end-column="135" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveOrUpdateProduct#0;class#ProductServiceImpl#0" />
+            <element signature="method#updateProductSaleSataus#0;class#ProductServiceImpl#0" />
+            <element signature="method#manageProductDetail#0;class#ProductServiceImpl#0" />
+            <element signature="method#assembleProductDetailVO#0;class#ProductServiceImpl#0" />
+            <element signature="method#assembleProductListItemVO#0;class#ProductServiceImpl#0" />
+            <element signature="e#8709#9238#1" />
+            <element signature="e#9278#9371#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backend/ProductManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="129" selection-start-line="17" selection-start-column="129" selection-end-line="17" selection-end-column="129" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="186" column="58" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ICategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -176,7 +176,7 @@
 
   <select id="checkAnswer" resultType="int" parameterType="map">
     select count(1) from mmall_user
-    where usrname=#{username} And question=#{question} AND answer=#{answer}
+    where username=#{username} And question=#{question} AND answer=#{answer}
 
   </select>
 

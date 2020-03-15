@@ -27,6 +27,8 @@ public class UserServiceImpl implements IUSERService {
   @Autowired //注解
   private UserMapper userMapper; //引入数据库
 
+
+
   @Override //重写接口中的login方法
   public ServerResponse<User> login(String username, String password) {
     // 调用检查是否存在
@@ -36,14 +38,19 @@ public class UserServiceImpl implements IUSERService {
     }
     // todo 密码登录MD5加密
     String MD5Password=MD5Util.MD5EncodeUtf8(password);
+
     User user=userMapper.selectLogin(username,MD5Password);
+
     if(user==null){
       return ServerResponse.createByErrorMsg("密码错误！");
     }
-    // 把密码置空??
+    // 把密码置空?? 避免密码暴露给前端
     user.setPassword(StringUtils.EMPTY);
-    return ServerResponse.createBySuccessMsg("登录成功");
+
+    return ServerResponse.createBySuccess("登录成功",user);
   }
+
+
 
   //注册接口
   public ServerResponse<String> register(User user){
@@ -206,5 +213,21 @@ public class UserServiceImpl implements IUSERService {
     //如果正确密码置空 为啥?因为密码字段不能不暴露给前端
     currentUser.setPassword(StringUtils.EMPTY);
     return ServerResponse.createBySuccess(currentUser);
+  }
+
+
+  //-------------------------------------------------------------------
+
+  /**
+   * 校验是否为管理员
+   * @param user
+   * @return
+   */
+  public ServerResponse<String> checkAdminRole(User user){
+    if(user!=null && user.getRole()==Const.Role.ROLE_ADMIN){
+      return ServerResponse.createBySuccess();
+    }else{
+      return ServerResponse.createByError();
+    }
   }
 }
