@@ -48,4 +48,12 @@ public class Const {
       return code;
     }
   }
+
+  public interface Cart{
+    int CEHECK_ON=1;
+    int CHECK_OFF=0;
+    //限制数量常量
+    String LIMIT_NUM_FAIL="LIMIT_NUM_FAIL";
+    String LIMIT_NUM_SUCCESS="LIMIT_NUM_SUCCESS";
+  }
 }
