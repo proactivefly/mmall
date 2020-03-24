@@ -50,7 +50,7 @@ public class Const {
   }
 
   public interface Cart{
-    int CEHECK_ON=1;
+    int CHECK_ON=1;
     int CHECK_OFF=0;
     //限制数量常量
     String LIMIT_NUM_FAIL="LIMIT_NUM_FAIL";

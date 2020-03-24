@@ -4,7 +4,6 @@ import com.github.pagehelper.PageInfo;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.Product;
 import com.mmall.vo.ProductDetailVO;
-import org.springframework.web.bind.annotation.RequestParam;
 
 public interface IProductService {
   ServerResponse saveOrUpdateProduct(Product product);
